@@ -1,0 +1,36 @@
+table {
+  width: 100%;
+}
+div.btn {
+  position: relative;
+  right: -10px;
+ 
+}
+div.closeButton{
+  position: absolute;
+  right: 60px;
+}
+.cancelButton {
+  font-size: 22px;
+  border-radius: 15px;
+  background: black;
+  color: #fff;
+  border: none;
+}
+div.lastButton{
+  position: relative;
+  right: -10px;
+}
+div.endButton{
+  position: absolute;
+  right: 55%;
+  left:45%;
+  top:10px;
+}
+.okbutton{
+  background: black;
+  color: white;
+  width: 75px; 
+  border-radius: 5px;
+  padding: 5px;
+}

@@ -1,0 +1,10 @@
+
+<div>
+  <input type="text" [(ngModel)]="lname"/> <br><br>
+  <button mat-button (click)="openDialog()">Open dialog</button><br><br>
+  <button mat-button (click)="openGrid()">Open grid</button>
+
+  <div *ngIf="showGrid">
+    <my-grid></my-grid>
+  </div>
+</div>
